@@ -1,0 +1,19 @@
+/*css-footer*/
+
+.footer{
+    margin-bottom: -20px;
+    /*background-color: rgba(153, 255, 153,0.8);*/
+}
+nav#footernav{
+        margin-left: -5px;
+        /*margin-bottom:-20px;*/
+        width:100%;
+        height:40px;
+        text-align:center;
+        padding:5px;
+        color: #68838B;
+        background-color: #d3d3d3;
+        /*margin-top:10%;*/
+        /*border: 1px solid yellow;
+        border-radius: 5px;*/
+    }

@@ -1,0 +1,43 @@
+<template name="safety">
+  <!--<h1>This is Safety page</h1>-->
+  <img class="img-responsive" id="safety" src="/images/sa1.jpg" alt="Safety" style="max-width: 100%;height: 140px;width:100%;padding-bottom: 10px;">
+
+
+   <h3 class="text-center">
+		<span style="padding: 10px 10px 10px 10px;box-shadow: 5px 5px 5px rgba(68,68,68,0.6);background-color: #93DB70;color: white;">Safety
+		</span>
+	</h3>
+  <p>
+  	Appointment of safety personnel for the project and the formation of safety committee on site.
+	Review of specifications to identify appropriate safety standards and special safety conditions.
+	Hazard analysis.
+	Emergency and contingency plan for obtaining medical assistance, ambulance and direction for rescue operation.
+	Safety induction training for every worker, to make them aware of the safety rules & procedures.
+	Inspection, testing and certification of tools and equipment.
+	Display of safety signage caution boards and awareness posters.
+	Periodic safety inspection and compliance of observations.
+	Accident reporting and investigations.
+	Analysis of accidents.
+	Safety audit and compliance</p>
+
+<h3 class="text-center">
+		<span style="padding: 10px 10px 10px 10px;box-shadow: 5px 5px 5px rgba(68,68,68,0.6);background-color: #93DB70;color: white;">Quality Policy
+		</span>
+	</h3>
+ 
+<p>
+We are committed to meet the expectations of our customers. Through our well designed and established service delivery system , that is sensitive and accommodative to continues technology upgradation and value analysis. We shall continuously strive to improve the effectiveness of our quality system .</p>
+<b><p> 
+To achieve this goal , our impetus will be towards the following:
+</p></b>
+<ul style="font-size: 16px;margin-top: 20px;">
+  		<li>Optimal utilisation of men, machine, finance and resources.</li>
+                <li>Provision of safe working environment.</li>
+                <li>Planning systems for effective implementation.</li>
+                <li>Strong organisational support through human resource.</li>
+                <li>Development of reliable vendors for higher degree of Quality Assurance.</li>
+                <li>Adherence to project completion schedules.</li>
+	</ul>		
+</template>
+ 
+

@@ -1,0 +1,27 @@
+<template name="mainNav">
+
+
+	<nav class="navbar navbar-inverse " role="navigation">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                	<li><a href="{{pathFor route='home'}}">Home</a></li>
+                    <li><a href="/first">First</a></li>
+                    <li><a href="/second">Second Navbar</a></li>
+			        <li><a href="/about_us">About us</a></li>		    
+			        <li><a href="/Safety">Safety</a></li>
+                    <li><a href="/upcoming_events">Upcoming Events</a></li>
+                    <li><a href="/clientPage">Our clients</a></li>
+                    <li><a href="/careerPage">Career</a></li>
+                    <li><a href="/contact">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<!--<div class="container">
+       {{> yield }}
+    </div>
+    <footer class="bottom">
+        {{> yield region="footer"}}
+    </footer>-->
+</template>

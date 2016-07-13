@@ -1,0 +1,48 @@
+<template name="contact_us_page">
+ <img id="contactus" class="img-responsive" src="/images/con2.jpg" alt="contact_us"><br>
+ <h3 class="text-center">
+		<span style="padding: 10px 10px 10px 10px;box-shadow: 5px 5px 5px rgba(68,68,68,0.6);background-color: #93DB70;color: white;">Contact Us
+		</span>
+	</h3>
+<br>
+
+  <form class="contact" style="padding-right:5px;margin-top: 10px;">
+    <div class="row">
+      <div class="col-sm-5" style="padding: 0px;line-height: -10px;padding-top: 0px;">
+      <b>  <p style="margin-bottom: 0px;">Contact us and we'll get back to you within 24 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hours.</p></b>
+        <p style="margin-top: 0px;margin-bottom: 0px;"><span  class="glyphicon glyphicon-map-marker" style="margin-left: -20px;"></span>
+          <span style="margin-left: 3px;">c/112,B2 first floor, </span></p>
+        <p style="margin-left: 55px;padding-top: 10px;margin-bottom: 0">aditya complex,</p>
+        <p style="margin-left: 55px;padding-top: 10px;margin-bottom: 0;">kamothe, navi Mumbai-410209.</p>
+        <p style="padding-top: 10px;margin-bottom: 0px;"><span class="glyphicon glyphicon-phone" style="margin-left: -20px;" ></span> +91 1234567890</p>
+        <p style="padding-top:10px; "><span class="glyphicon glyphicon-envelope" style="margin-left: -20px;"></span> abc@harshalainfra.com</p>
+      </div>
+      <div class="col-sm-7">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="company_name" name="company_name" placeholder="Company name" type="text">
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="contact_number" name="contact_number" placeholder="Contact number" type="text" pattern="\d+" maxlength="10">
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+          <button class="btn pull-right" type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+   <!-- Set height and width with CSS -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<!-- code for map -->
+
+</template>

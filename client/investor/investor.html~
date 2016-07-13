@@ -1,0 +1,15 @@
+<template name="investor">
+<div id="container-fluid">
+	<img class="img-responsive" id="investors" src="/images/i2.jpg" alt="Investors">
+
+	<h3><span style="padding-right: 20px;padding-left:15px;box-shadow:inset 10px 0px 5px  #7EB6FF ;color: #563f46;">Vision & Strategy</span></h3>
+	<p>The Government of India, since it opened up the economy in 1991, has appreciated the need of well, developed infrastructure for realizing its long term goals. Resultant of this realization is the huge investment in all segments of infrastructure development water supply, irrigation, roads, power and mass housing. Not only have the domestic companies made the best of the opportunity, but the pro development policies have also attracted foreign participation in both, physical execution and financial participation. HIPL apart from being an active player in its current fields of expertise, intends making a foray in hydel power projects and railway infrastructure, by entering into a strategic alliance with an experienced overseas player in related fields.</p>
+	<h3><span style="padding-right: 20px;padding-left:15px;box-shadow:inset 10px 0px 5px  #7EB6FF ;color: #563f46;">Our Assosiates</span></h3>
+	<ul style="font-size: 16px;margin-top: 20px;">	
+		<li>Bahulekar & Associates</li>
+		<li>Maaviya Engineering Consultants Pvt. Ltd.</li>
+		<li>Krishnan & Associates.</li>
+		<li>C.Prakash Rao & Co.</li>
+	</ul>
+</div>
+</template>
